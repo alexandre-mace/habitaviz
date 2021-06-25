@@ -69,7 +69,7 @@ function App() {
                     />
                 </div>
             </div>
-            <GroupedBar data={domainToChartJsAdapter(data)}/>
+            <GroupedBar data={domainToChartJsAdapter(data, year, averageValues, fluid)}/>
         </div>
     );
 }

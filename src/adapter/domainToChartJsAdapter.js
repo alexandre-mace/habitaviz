@@ -1,12 +1,19 @@
-const domainToChartJsAdapter = (domainData) => {
-    const energyTypeValueStates = Array(domainData[0].data.length * ['min', 'max'].length).fill(['min', 'max']).flat();
-    const energyTypes = domainData[0].data.map(dataItem => ['min', 'max'].map(valueState => dataItem.energy_type + ' ' + valueState)).flat();
-    const energyTypeValueStacks = domainData[0].data.map((dataItem, i) => ['min', 'max'].map(valueState => i)).flat();
+const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
+    let valueStates = ['min', 'max'];
 
-    const totalValues = (Array(domainData.length * domainData[0].data.length * ['min', 'max'].length));
-    let values = ['min', 'max'].map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data['2015'][valueState])));
-    values = values[0].map((valuesSet, i) => [values[0][i], values[1][i]]).flat()
+    if (averageValues) {
+        valueStates = ['moy'];
+    }
 
+    const energyTypes = domainData[0].data.map(dataItem => valueStates.map(valueState => dataItem.energy_type + ' ' + valueState)).flat();
+    const energyTypeValueStacks = domainData[0].data.map((dataItem, i) => valueStates.map(valueState => i)).flat();
+    let values = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data['2015'][valueState])));
+
+    if (!averageValues) {
+        values = values[0].map((valuesSet, i) => [values[0][i], values[1][i]]).flat()
+    } else {
+        values = values[0]
+    }
 
     return {
         labels: domainData.map(dataItem => dataItem.label),
