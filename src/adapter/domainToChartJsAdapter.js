@@ -7,7 +7,7 @@ const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
 
     const energyTypes = domainData[0].data.map(dataItem => valueStates.map(valueState => dataItem.energy_type + ' ' + valueState)).flat();
     const energyTypeValueStacks = domainData[0].data.map((dataItem, i) => valueStates.map(valueState => i)).flat();
-    let values = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data['2015'][valueState])));
+    let values = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data[year][valueState])));
 
     if (!averageValues) {
         values = values[0].map((valuesSet, i) => [values[0][i], values[1][i]]).flat()

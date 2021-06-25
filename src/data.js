@@ -9,6 +9,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -16,6 +21,11 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -29,6 +39,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -39,6 +54,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -46,6 +66,11 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -64,6 +89,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -71,6 +101,11 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -84,6 +119,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -94,6 +134,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -101,6 +146,11 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -119,6 +169,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -126,6 +181,11 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -139,6 +199,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -149,6 +214,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -156,6 +226,11 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -174,6 +249,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -181,6 +261,11 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
@@ -194,6 +279,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -204,6 +294,11 @@ const data = [
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
                     }
                 }
             },
@@ -211,6 +306,11 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
+                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
+                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
+                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                    },
+                    '2016': {
                         'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
                         'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
                         'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
