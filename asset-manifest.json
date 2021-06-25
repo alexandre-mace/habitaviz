@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/habitaviz/static/css/main.40a93b37.chunk.css",
-    "main.js": "/habitaviz/static/js/main.bb22f469.chunk.js",
-    "main.js.map": "/habitaviz/static/js/main.bb22f469.chunk.js.map",
+    "main.js": "/habitaviz/static/js/main.4d1eb78d.chunk.js",
+    "main.js.map": "/habitaviz/static/js/main.4d1eb78d.chunk.js.map",
     "runtime-main.js": "/habitaviz/static/js/runtime-main.b5580f3f.js",
     "runtime-main.js.map": "/habitaviz/static/js/runtime-main.b5580f3f.js.map",
     "static/js/2.ad11f8d6.chunk.js": "/habitaviz/static/js/2.ad11f8d6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b5580f3f.js",
     "static/js/2.ad11f8d6.chunk.js",
     "static/css/main.40a93b37.chunk.css",
-    "static/js/main.bb22f469.chunk.js"
+    "static/js/main.4d1eb78d.chunk.js"
   ]
 }
