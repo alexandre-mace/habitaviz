@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/habitaviz/static/css/main.40a93b37.chunk.css",
-    "main.js": "/habitaviz/static/js/main.dd270036.chunk.js",
-    "main.js.map": "/habitaviz/static/js/main.dd270036.chunk.js.map",
+    "main.js": "/habitaviz/static/js/main.9320297b.chunk.js",
+    "main.js.map": "/habitaviz/static/js/main.9320297b.chunk.js.map",
     "runtime-main.js": "/habitaviz/static/js/runtime-main.b5580f3f.js",
     "runtime-main.js.map": "/habitaviz/static/js/runtime-main.b5580f3f.js.map",
-    "static/js/2.ad11f8d6.chunk.js": "/habitaviz/static/js/2.ad11f8d6.chunk.js",
-    "static/js/2.ad11f8d6.chunk.js.map": "/habitaviz/static/js/2.ad11f8d6.chunk.js.map",
+    "static/js/2.b235d302.chunk.js": "/habitaviz/static/js/2.b235d302.chunk.js",
+    "static/js/2.b235d302.chunk.js.map": "/habitaviz/static/js/2.b235d302.chunk.js.map",
     "static/js/3.4df94069.chunk.js": "/habitaviz/static/js/3.4df94069.chunk.js",
     "static/js/3.4df94069.chunk.js.map": "/habitaviz/static/js/3.4df94069.chunk.js.map",
     "index.html": "/habitaviz/index.html",
     "static/css/main.40a93b37.chunk.css.map": "/habitaviz/static/css/main.40a93b37.chunk.css.map",
-    "static/js/2.ad11f8d6.chunk.js.LICENSE.txt": "/habitaviz/static/js/2.ad11f8d6.chunk.js.LICENSE.txt"
+    "static/js/2.b235d302.chunk.js.LICENSE.txt": "/habitaviz/static/js/2.b235d302.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b5580f3f.js",
-    "static/js/2.ad11f8d6.chunk.js",
+    "static/js/2.b235d302.chunk.js",
     "static/css/main.40a93b37.chunk.css",
-    "static/js/main.dd270036.chunk.js"
+    "static/js/main.9320297b.chunk.js"
   ]
 }
