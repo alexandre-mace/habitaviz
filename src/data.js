@@ -1,3 +1,5 @@
+import randomIntFromInterval from "./utils/randomIntFromInterval";
+
 const data = [
     {
         'label': 'Maisons individuelles',
@@ -6,29 +8,29 @@ const data = [
                 'energy_type': 'Chauffage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
-                }
+                },
             },
             {
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -36,14 +38,14 @@ const data = [
                 'energy_type': 'Ventil',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -51,14 +53,14 @@ const data = [
                 'energy_type': 'Clim',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -66,14 +68,14 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -86,14 +88,14 @@ const data = [
                 'energy_type': 'Chauffage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -101,14 +103,14 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -116,14 +118,14 @@ const data = [
                 'energy_type': 'Ventil',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -131,14 +133,14 @@ const data = [
                 'energy_type': 'Clim',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -146,14 +148,14 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -166,14 +168,14 @@ const data = [
                 'energy_type': 'Chauffage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -181,14 +183,14 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -196,14 +198,14 @@ const data = [
                 'energy_type': 'Ventil',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -211,14 +213,14 @@ const data = [
                 'energy_type': 'Clim',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -226,14 +228,14 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -246,14 +248,14 @@ const data = [
                 'energy_type': 'Chauffage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -261,14 +263,14 @@ const data = [
                 'energy_type': 'ECS',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -276,14 +278,14 @@ const data = [
                 'energy_type': 'Ventil',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -291,14 +293,14 @@ const data = [
                 'energy_type': 'Clim',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },
@@ -306,14 +308,14 @@ const data = [
                 'energy_type': 'Éclairage',
                 'data' : {
                     '2015': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     },
                     '2016': {
-                        'min': Math.abs(Math.round(Math.random() * 12 - Math.random() * 5)),
-                        'moy': Math.abs(Math.round(Math.random() * 32 - Math.random() * 5)),
-                        'max': Math.abs(Math.round(Math.random() * 56 - Math.random() * 5))
+                        'min': randomIntFromInterval(2, 25),
+                        'moy': randomIntFromInterval(26, 50),
+                        'max': randomIntFromInterval(51, 80)
                     }
                 }
             },

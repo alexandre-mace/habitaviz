@@ -1,3 +1,5 @@
+import colors from "../colors";
+
 const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
     let valueStates = ['min', 'max'];
 
@@ -20,7 +22,7 @@ const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
         datasets:  energyTypes.map((energyType, i) => ({
             label: energyType,
             data:  values[i],
-            backgroundColor: 'rgb(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) +')',
+            backgroundColor: colors[energyType],
             stack: energyTypeValueStacks[i]
         }))
     };
