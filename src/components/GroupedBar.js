@@ -14,9 +14,6 @@ const options = {
 const GroupedBar = ({data}) => {
     return (
         <>
-            <div className='header'>
-                <h1 className='title'>Consommation énergétique des bâtiments : diagramme 1</h1>
-            </div>
             <Bar data={data} options={options}/>
         </>
     )};

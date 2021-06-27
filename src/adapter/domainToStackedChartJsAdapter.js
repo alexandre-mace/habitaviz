@@ -1,6 +1,6 @@
 import colors from "../colors";
 
-const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
+const domainToStackedChartJsAdapter = (domainData, year, averageValues, fluid) => {
     let valueStates = ['min', 'max'];
 
     if (averageValues) {
@@ -28,4 +28,4 @@ const domainToChartJsAdapter = (domainData, year, averageValues, fluid) => {
     };
 }
 
-export default domainToChartJsAdapter;
+export default domainToStackedChartJsAdapter;
