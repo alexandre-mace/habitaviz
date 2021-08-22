@@ -1,15 +1,9 @@
-import GroupedBar from "./../GroupedBar";
-import data from "./../../data";
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import React, {useState} from "react";
+import React from "react";
 import InputLabel from '@material-ui/core/InputLabel';
-import Switch from '@material-ui/core/Switch';
-import {FormControlLabel} from "@material-ui/core/index";
-import domainToStackedChartJsAdapter from "../../adapter/domainToStackedChartJsAdapter";
 
 function Period({ startYear, setStartYear, endYear, setEndYear}) {
-
     return (
         <div>
             <div style={{display: 'inline-block', marginRight: "2rem"}}>
