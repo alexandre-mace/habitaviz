@@ -7,10 +7,12 @@ import InputLabel from '@material-ui/core/InputLabel';
 import Switch from '@material-ui/core/Switch';
 import {FormControlLabel} from "@material-ui/core/index";
 import domainToStackedChartJsAdapter from "../../adapter/domainToStackedChartJsAdapter";
+import Period from "../utilities/Period";
 
 function StackedBuildingsEnergyConsumption() {
     const [valueUnity, setValueUnity] = useState('kWhep/m2.an');
-    const [year, setYear] = useState('2015');
+    const [startYear, setStartYear] = useState('2015');
+    const [endYear, setEndYear] = useState('2015');
     const [fluid, setFluid] = useState('Gaz');
     const [averageValues, setAverageValues] = useState(false);
 
@@ -37,18 +39,7 @@ function StackedBuildingsEnergyConsumption() {
                     </Select>
                 </div>
                 <div style={{marginRight: '2rem'}}/>
-                <div style={{display: 'inline-block'}}>
-                    <InputLabel id="year-label">Période</InputLabel>
-                    <Select
-                        labelId={"year-label"}
-                        id="year"
-                        value={year}
-                        onChange={(event) => setYear(event.target.value)}
-                    >
-                        <MenuItem value={'2015'}>2015</MenuItem>
-                        <MenuItem value={'2016'}>2016</MenuItem>
-                    </Select>
-                </div>
+                <Period startYear={startYear} setStartYear={setStartYear} endYear={endYear} setEndYear={setEndYear}/>
                 <div style={{marginRight: '2rem'}}/>
                 <div style={{display: 'inline-block'}}>
                     <InputLabel id="value-unity-label">Unité</InputLabel>
@@ -70,7 +61,7 @@ function StackedBuildingsEnergyConsumption() {
                     />
                 </div>
             </div>
-            <GroupedBar data={domainToStackedChartJsAdapter(data, year, averageValues, fluid)}/>
+            <GroupedBar data={domainToStackedChartJsAdapter(data, startYear, endYear, averageValues, fluid)}/>
         </div>
     );
 }

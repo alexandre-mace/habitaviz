@@ -1,6 +1,6 @@
 import colors from "../colors";
 
-const domainToStackedChartJsAdapter = (domainData, year, averageValues, fluid) => {
+const domainToStackedChartJsAdapter = (domainData, startYear, endYear, averageValues, fluid) => {
     let valueStates = ['min', 'max'];
 
     if (averageValues) {
@@ -9,13 +9,20 @@ const domainToStackedChartJsAdapter = (domainData, year, averageValues, fluid) =
 
     const energyTypes = domainData[0].data.map(dataItem => valueStates.map(valueState => dataItem.energy_type + ' ' + valueState)).flat();
     const energyTypeValueStacks = domainData[0].data.map((dataItem, i) => valueStates.map(valueState => i)).flat();
-    let values = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data[year][valueState])));
+    let valuesStart = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data[startYear][valueState])));
+    let valuesEnd = valueStates.map(valueState => domainData[0].data.map((dataItemEnergy, i) => domainData.map((dataItem, j) => dataItem.data[i].data[endYear][valueState])));
 
     if (!averageValues) {
-        values = values[0].map((valuesSet, i) => [values[0][i], values[1][i]]).flat()
+        valuesStart = valuesStart[0].map((valuesSet, i) => [valuesStart[0][i], valuesStart[1][i]]).flat()
+        valuesEnd = valuesEnd[0].map((valuesSet, i) => [valuesEnd[0][i], valuesEnd[1][i]]).flat()
     } else {
-        values = values[0]
+        valuesStart = valuesStart[0]
+        valuesEnd = valuesEnd[0]
     }
+
+    const values = valuesStart.map((valueStartDeep1, i) => valueStartDeep1.map((valueStartDeep2, j) => {
+        return (valueStartDeep2 + valuesEnd[i][j]) / 2;
+    }))
 
     return {
         labels: domainData.map(dataItem => dataItem.label),
