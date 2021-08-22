@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/habitaviz/static/css/main.f87f4ac4.chunk.css",
-    "main.js": "/habitaviz/static/js/main.70555b3f.chunk.js",
-    "main.js.map": "/habitaviz/static/js/main.70555b3f.chunk.js.map",
-    "runtime-main.js": "/habitaviz/static/js/runtime-main.b5580f3f.js",
-    "runtime-main.js.map": "/habitaviz/static/js/runtime-main.b5580f3f.js.map",
-    "static/js/2.481d4eaf.chunk.js": "/habitaviz/static/js/2.481d4eaf.chunk.js",
-    "static/js/2.481d4eaf.chunk.js.map": "/habitaviz/static/js/2.481d4eaf.chunk.js.map",
-    "static/js/3.4df94069.chunk.js": "/habitaviz/static/js/3.4df94069.chunk.js",
-    "static/js/3.4df94069.chunk.js.map": "/habitaviz/static/js/3.4df94069.chunk.js.map",
+    "main.js": "/habitaviz/static/js/main.121fc8ff.chunk.js",
+    "main.js.map": "/habitaviz/static/js/main.121fc8ff.chunk.js.map",
+    "runtime-main.js": "/habitaviz/static/js/runtime-main.889e481e.js",
+    "runtime-main.js.map": "/habitaviz/static/js/runtime-main.889e481e.js.map",
+    "static/js/2.b73db2e1.chunk.js": "/habitaviz/static/js/2.b73db2e1.chunk.js",
+    "static/js/2.b73db2e1.chunk.js.map": "/habitaviz/static/js/2.b73db2e1.chunk.js.map",
+    "static/js/3.dc1806a3.chunk.js": "/habitaviz/static/js/3.dc1806a3.chunk.js",
+    "static/js/3.dc1806a3.chunk.js.map": "/habitaviz/static/js/3.dc1806a3.chunk.js.map",
     "index.html": "/habitaviz/index.html",
     "static/css/main.f87f4ac4.chunk.css.map": "/habitaviz/static/css/main.f87f4ac4.chunk.css.map",
-    "static/js/2.481d4eaf.chunk.js.LICENSE.txt": "/habitaviz/static/js/2.481d4eaf.chunk.js.LICENSE.txt"
+    "static/js/2.b73db2e1.chunk.js.LICENSE.txt": "/habitaviz/static/js/2.b73db2e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5580f3f.js",
-    "static/js/2.481d4eaf.chunk.js",
+    "static/js/runtime-main.889e481e.js",
+    "static/js/2.b73db2e1.chunk.js",
     "static/css/main.f87f4ac4.chunk.css",
-    "static/js/main.70555b3f.chunk.js"
+    "static/js/main.121fc8ff.chunk.js"
   ]
 }
